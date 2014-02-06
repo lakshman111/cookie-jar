@@ -38,12 +38,15 @@ h1 {
   border-radius: 10px;
   text-decoration: none;
   margin-top: 20px;
+  -webkit-transition: all 1s ease;
 }
 
 .see-cookies:hover {
   color: #996633;
-  background: white;
+  background: red;
   text-decoration: none;
+  border-style: dashed;
+  padding: 40px;
 }
 
 
